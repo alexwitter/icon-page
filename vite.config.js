@@ -7,7 +7,7 @@ import tailwindcss from '@tailwindcss/vite';
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
-  base: "./", // Ensures relative paths in the built HTML
+  base: "/icon-page/", // Ensures relative paths in the built HTML
   plugins: [
     injectHTML(),
     tailwindcss(),
