@@ -15,13 +15,13 @@
 
 
     <title>Andra motiv | Ikonsidan</title>
-    <link rel="stylesheet" crossorigin href="/icon-page/assets/style-sljznzwG.css">
+    <link rel="stylesheet" crossorigin href="/icon-page/assets/style-CntLXAz8.css">
   </head>
 
-    <body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
+  <body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
 
-<!-- Nav -->
-<nav id="header" class="w-full z-30 top-0 py-1 shadow-md">
+    <!-- Nav -->
+    <nav id="header" class="w-full z-30 top-0 py-1 shadow-md">
         <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-6 py-3">
 
             <label for="menu-toggle" class="cursor-pointer md:hidden block">
@@ -74,127 +74,121 @@
         </div>
     </nav>
 
-<section class="py-8 pb-20">
-  <div class="container px-6 mx-auto">
-    <div class="flex flex-wrap justify-center">
+    <section class="py-8 pb-20">
+      <div class="container px-6 mx-auto">
+        <div class="flex flex-wrap justify-center">
+          <div class="flex flex-col basis-md lg:basis-4xl mt-8">
+            <div class="">
+              <h2 class="text-3xl text-gray-800 leading-none">Andra motiv...</h2>
+              <p class="text-gray-600 my-4">I samma teknik som jag använder när jag skriver en ikon, det vill säga äggtempera på träpannå, målar jag även andra motiv.</p>
+            </div>
 
-      <div class="flex flex-col basis-md lg:basis-4xl  mt-8">
-
-
-          <div class="">
-            <h2 class="text-3xl text-gray-800 leading-none ">Andra motiv...</h2>
-            <p class="text-gray-600 my-4 ">I samma teknik som jag använder när jag skriver en ikon, det vill säga äggtempera på träpannå, målar jag även andra motiv.</p>
-           
-              <!-- <a class="btn btn-lg btn-outline mt-6" href="kontakt.html">Kontakt </a> -->
-          </div>
-        
-          <div class="flex flex-col lg:flex-row gap-x-4 mt-8" id="gallery">
-             <!-- Thumbnails will be dynamically generated here -->
-          </div>
-
-      </div>
-
-       <!-- Gallery -->
-
-    <div id="myModal" class="hidden fixed z-50 inset-0 overflow-auto bg-black/90  items-center justify-center">
-      <span class="absolute top-4 right-8 text-white text-4xl font-bold cursor-pointer" onclick="closeModal()">&times;</span>
-      <div class="relative text-center content-center basis-lg ">
-          <!-- Full-size images will be dynamically generated here -->
-      </div>
-      <a class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-black/0 text-white text-2xl font-bold px-4 py-2 cursor-pointer" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-black/0 text-white text-2xl font-bold px-4 py-2 cursor-pointer" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-
-  <script>
-      const images = [
-          { src: "src/image/andra-motiv/a.jpg", caption: "Flicka med pärlörhänge", extra: "32x24 cm. Efter original av Johannes Vermeer." },
-          { src: "src/image/andra-motiv/b.jpg", caption: "Räv i snö", extra: "32x24 cm" },
-          { src: "src/image/andra-motiv/c.jpg", caption: "Lavskrika", extra: "Norrbottens landskapsdjur. 32x24 cm." },
-
-          // Add more images as needed
-      ];
-
-      const gallery = document.getElementById('gallery');
-      const modalContent = document.querySelector('#myModal .relative');
-
-      images.forEach((image, index) => {
-          // Create thumbnail
-          const thumbnailDiv = document.createElement('div');
-          thumbnailDiv.classList.add('relative', 'overflow-hidden');
-          thumbnailDiv.innerHTML = `
+            <div class="flex flex-col lg:flex-row gap-x-4 mt-8" id="gallery">
+              <!-- Static Thumbnails -->
+              <div class="relative overflow-hidden">
                 <div class="flex flex-col mb-8 max-w-sm">
                   <div class="bg-center w-full h-full">
-                    <img src="${image.src}" alt="${index + 1}" class="cursor-pointer transition-opacity duration-200 ease-in-out transform hover:opacity-50 h-auto max-w-full" onclick="openModal(${index + 1})">
+                    <img src="/icon-page/assets/a-FY3FC2Ur.jpg" alt="1" class="cursor-pointer transition-opacity duration-200 ease-in-out transform hover:opacity-50 h-auto max-w-full" onclick="openModal(1)" data-caption="Flicka med pärlörhänge" data-extra="32x24 cm. Efter original av Johannes Vermeer.">
                   </div>
-
-                  <div class="flex flex-col items-center gap-2 p-4 bg-base-100 mt-4 ">
-                      <span class="text-sm md:text-base">${image.caption}</span>
+                  <div class="flex flex-col items-center gap-2 p-4 bg-base-100 mt-4">
+                    <span class="text-sm md:text-base">Flicka med pärlörhänge</span>
                   </div>
                 </div>
-          `;
-          gallery.appendChild(thumbnailDiv);
+              </div>
 
-          // Create full-size image
-          const slideDiv = document.createElement('div');
-          slideDiv.classList.add('mySlides', 'hidden');
-          slideDiv.innerHTML = `
-                <img src="${image.src}" class="mx-auto max-h-[80vh] max-w-[80vw]">
+              <div class="relative overflow-hidden">
+                <div class="flex flex-col mb-8 max-w-sm">
+                  <div class="bg-center w-full h-full">
+                    <img src="/icon-page/assets/b-Dyounan0.jpg" alt="2" class="cursor-pointer transition-opacity duration-200 ease-in-out transform hover:opacity-50 h-auto max-w-full" onclick="openModal(2)" data-caption="Räv i snö" data-extra="32x24 cm">
+                  </div>
+                  <div class="flex flex-col items-center gap-2 p-4 bg-base-100 mt-4">
+                    <span class="text-sm md:text-base">Räv i snö</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="relative overflow-hidden">
+                <div class="flex flex-col mb-8 max-w-sm">
+                  <div class="bg-center w-full h-full">
+                    <img src="/icon-page/assets/c-DLsngP96.jpg" alt="3" class="cursor-pointer transition-opacity duration-200 ease-in-out transform hover:opacity-50 h-auto max-w-full" onclick="openModal(3)" data-caption="Lavskrika" data-extra="Norrbottens landskapsdjur. 32x24 cm.">
+                  </div>
+                  <div class="flex flex-col items-center gap-2 p-4 bg-base-100 mt-4">
+                    <span class="text-sm md:text-base">Lavskrika</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal -->
+          <div id="myModal" class="hidden fixed z-50 inset-0 overflow-auto bg-black/90 items-center justify-center">
+            <span class="absolute top-4 right-8 text-white text-4xl font-bold cursor-pointer" onclick="closeModal()">&times;</span>
+            <div class="relative text-center content-center basis-lg">
+              <!-- Full-size images will be dynamically generated here -->
+            </div>
+            <a class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-black/0 text-white text-2xl font-bold px-4 py-2 cursor-pointer" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-black/0 text-white text-2xl font-bold px-4 py-2 cursor-pointer" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+
+          <script>
+            const gallery = document.getElementById('gallery');
+            const modalContent = document.querySelector('#myModal .relative');
+
+            // Create full-size images for the modal
+            const thumbnails = gallery.querySelectorAll('img');
+            thumbnails.forEach((thumbnail, index) => {
+              const slideDiv = document.createElement('div');
+              slideDiv.classList.add('mySlides', 'hidden');
+              slideDiv.innerHTML = `
+                <img src="${thumbnail.src}" class="mx-auto max-h-[80vh] max-w-[80vw]">
                 <div class="text-gray-200 mt-2 flex flex-col">
-                  <span class="text-md"> ${image.caption}</span>
-                  <span class="text-sm">${image.extra}</span>
+                  <span class="text-md">${thumbnail.dataset.caption}</span>
+                  <span class="text-sm">${thumbnail.dataset.extra}</span>
                 </div>
-          `;
-          modalContent.appendChild(slideDiv);
-      });
+              `;
+              modalContent.appendChild(slideDiv);
+            });
 
-      function openModal(n) {
-          document.getElementById("myModal").classList.add("flex");
-          document.getElementById("myModal").classList.remove("hidden");
-          document.body.classList.add("overflow-hidden"); // Prevent background scrolling
-          currentSlide(n);
-      }
+            function openModal(n) {
+              document.getElementById("myModal").classList.add("flex");
+              document.getElementById("myModal").classList.remove("hidden");
+              document.body.classList.add("overflow-hidden"); // Prevent background scrolling
+              currentSlide(n);
+            }
 
-      function closeModal() {
-          document.getElementById("myModal").classList.add("hidden");
-          document.body.classList.remove("overflow-hidden"); // Allow background scrolling
-      }
+            function closeModal() {
+              document.getElementById("myModal").classList.add("hidden");
+              document.body.classList.remove("overflow-hidden"); // Allow background scrolling
+            }
 
-      let slideIndex = 1;
-      showSlides(slideIndex);
+            let slideIndex = 1;
+            showSlides(slideIndex);
 
-      function plusSlides(n) {
-          showSlides(slideIndex += n);
-      }
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
 
-      function currentSlide(n) {
-          showSlides(slideIndex = n);
-      }
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
 
-      function showSlides(n) {
-          let i;
-          let slides = document.getElementsByClassName("mySlides");
-          if (n > slides.length) {slideIndex = 1}
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-              slides[i].classList.add("hidden");
-          }
-          slides[slideIndex-1].classList.remove("hidden");
-      }
-  </script>
-
-    
-
-
-
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              if (n > slides.length) { slideIndex = 1 }
+              if (n < 1) { slideIndex = slides.length }
+              for (i = 0; i < slides.length; i++) {
+                slides[i].classList.add("hidden");
+              }
+              slides[slideIndex - 1].classList.remove("hidden");
+            }
+          </script>
+        </div>
       </div>
-      
-  </div>
-</section>
+    </section>
 
-
-
-<!-- Footer -->
-<footer class="container mx-auto">
+    <!-- Footer -->
+    <footer class="container mx-auto">
 
 
   <div class="relative h-45 w-full overflow-hidden flex justify-center">
@@ -236,6 +230,6 @@
     </div>
   </div> -->
 </footer>
-  
-</body>
+
+  </body>
 </html>
