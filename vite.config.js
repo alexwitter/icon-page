@@ -17,6 +17,11 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         ommig: resolve(__dirname, 'om-mig.html'),
+        hantverket: resolve(__dirname, 'hantverket.html'),
+        galleri: resolve(__dirname, 'galleri.html'),
+        bestallning: resolve(__dirname, 'bestallning.html'),
+        kontakt: resolve(__dirname, 'kontakt.html'),
+        andramotiv: resolve(__dirname, 'andra-motiv.html'),
         nav: resolve(__dirname, 'partials/nav.html'),
         footer: resolve(__dirname, 'partials/footer.html'),
       },

@@ -18,6 +18,13 @@
 }
 
 
+.playwrite {
+  font-family: "Playwrite IN", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
 .work-sans {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -68,4 +75,29 @@
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
   color: #000;
   /*Set to match the Tailwind colour you want the active one to be */
+}
+
+
+
+
+/* FORM */
+
+
+
+.invalid-feedback,
+.empty-feedback {
+  display: none;
+}
+
+.was-validated :placeholder-shown:invalid ~ .empty-feedback {
+  display: block;
+}
+
+.was-validated :not(:placeholder-shown):invalid ~ .invalid-feedback {
+  display: block;
+}
+
+.is-invalid,
+.was-validated :invalid {
+  border-color: #dc3545;
 }
