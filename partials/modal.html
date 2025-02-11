@@ -3,8 +3,8 @@
 <div class="relative text-center content-center basis-lg">
   <!-- Full-size images will be dynamically generated here -->
 </div>
-<a class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-black/0 text-white text-2xl font-bold px-4 py-2 cursor-pointer" onclick="plusSlides(-1)">&#10094;</a>
-<a class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-black/0 text-white text-2xl font-bold px-4 py-2 cursor-pointer" onclick="plusSlides(1)">&#10095;</a>
+<a class="absolute top-1/2 left-0 lg:left-4 transform -translate-y-1/2 bg-black/0 text-white text-2xl font-bold px-4 py-2 cursor-pointer" onclick="plusSlides(-1)">&#10094;</a>
+<a class="absolute top-1/2 right-0 lg:right-4 transform -translate-y-1/2 bg-black/0 text-white text-2xl font-bold px-4 py-2 cursor-pointer" onclick="plusSlides(1)">&#10095;</a>
 </div>
 
 <script>
@@ -58,5 +58,35 @@ function showSlides(n) {
     slides[i].classList.add("hidden");
   }
   slides[slideIndex - 1].classList.remove("hidden");
+}
+
+let touchStartX = 0;
+let touchEndX = 0;
+
+const modal = document.getElementById("myModal");
+
+// Touch event listeners
+modal.addEventListener('touchstart', e => {
+  touchStartX = e.changedTouches[0].screenX;
+});
+
+modal.addEventListener('touchend', e => {
+  touchEndX = e.changedTouches[0].screenX;
+  handleSwipe();
+});
+
+function handleSwipe() {
+  const swipeThreshold = 50; // minimum distance for a swipe
+  const swipeDistance = touchEndX - touchStartX;
+  
+  if (Math.abs(swipeDistance) > swipeThreshold) {
+    if (swipeDistance > 0) {
+      // Swipe right - show previous image
+      plusSlides(-1);
+    } else {
+      // Swipe left - show next image
+      plusSlides(1);
+    }
+  }
 }
 </script>
