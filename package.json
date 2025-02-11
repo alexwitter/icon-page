@@ -2,13 +2,17 @@
   "name": "web-dev",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://alexwitter.github.io/icon-page/",
   "type": "module",
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist --cname ikonsidan.com",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vite": "^6.0.5",
     "vite-plugin-html-inject": "^1.1.2"
   },

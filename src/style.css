@@ -8,6 +8,45 @@
   logs: true;
 }
 
+@theme {
+  --spacing: 4px; 
+}
+
+@layer components {
+  .gallery-a{
+    @apply grid;
+    @apply gap-x-4; 
+    @apply gap-y-8;
+    
+  }
+  /* media box */
+  .gallery-a div {
+    @apply flex;
+    @apply flex-col;
+    /* @apply mb-4; */
+  }
+  /* image */
+  .gallery-a div img {
+    @apply cursor-pointer;       
+    @apply transition-opacity;
+    @apply duration-300;
+    @apply ease-in-out;
+    @apply transform;
+    @apply hover:opacity-50;
+
+
+  }
+  /* caption */
+  .gallery-a div div {
+    @apply overflow-x-hidden;
+    @apply text-center; 
+    @apply bg-base-100;      
+    @apply p-4;
+    @apply mt-2;
+
+  }
+}
+
 
 .btn {
   @apply rounded-none;

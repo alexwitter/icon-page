@@ -7,7 +7,7 @@ import tailwindcss from '@tailwindcss/vite';
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
-  base: "/icon-page/", // Ensures relative paths in the built HTML
+  base: "/", // Ensures relative paths in the built HTML
   plugins: [
     injectHTML(),
     tailwindcss(),
@@ -22,6 +22,8 @@ export default defineConfig({
         bestallning: resolve(__dirname, 'bestallning.html'),
         kontakt: resolve(__dirname, 'kontakt.html'),
         andramotiv: resolve(__dirname, 'andra-motiv.html'),
+        omkakor: resolve(__dirname, 'om-kakor.html'),
+        head: resolve(__dirname, 'partials/head.html'),
         nav: resolve(__dirname, 'partials/nav.html'),
         footer: resolve(__dirname, 'partials/footer.html'),
       },
