@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="sv-SE">
+  <head class="">
+    <load src="../partials/head.html" />
+    <title>Galleri | Ikonsidan</title>
+  </head>
+
+    <body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
+
+<!-- Nav -->
+<load src="../partials/nav.html" />
+
+
+<section class="py-8 pb-20">
+  <div class="container px-6 mx-auto">
+    <div class="flex flex-wrap justify-center">
+      <div class="flex flex-col basis-md lg:basis-4xl mt-8">
+
+
+
+
+        <div class="flex justify-between">
+          
+          <div>
+            <a class="btn btn-nav btn-sm lg:btn-md gap-2 lg:gap-3 mt-14 lg:mt-0" href="../galleri">
+              <svg class="h-6 w-6 fill-current md:h-8 md:w-8" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z"></path>
+              </svg>
+                <span class="pr-4">Galleri</span>
+            </a>
+          </div>
+
+            <div class="">
+              <h2 class="text-3xl text-gray-800 leading-none text-center ">Kristusikoner</h2>
+            </div>
+
+
+            <div>
+              <a class="btn btn-nav btn-sm lg:btn-md gap-2 lg:gap-3 mt-14 lg:mt-0" href="../gudsmodern">
+              <span class="pl-4">Gudsmodern</span>
+              <svg class="h-6 w-6 fill-current md:h-8 md:w-8" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"></path>
+              </svg>
+            </a>
+          </div>
+            
+
+
+
+        </div>
+
+        <div class="gallery gallery-box grid-cols-3 lg:grid-cols-5 mt-10 lg:mt-22 mb-20" id="gallery">
+
+                    <div>
+                <img src="../src/image/galleri/galleri/kristus.jpg" 
+                     alt="Kristus Pantokrator"
+            data-caption="Kristus Pantokrator" 
+              data-extra="24x32 cm" 
+                 onclick="openModal(1)">
+                    </div>
+                     <div>
+                <img src="../src/image/galleri/galleri/kristus-1.jpg" 
+                     alt="Kristus Pantokrator"
+            data-caption="Kristus Pantokrator" 
+              data-extra="30x45 cm" 
+                 onclick="openModal(2)">
+                    </div>
+                     <div>
+                <img src="../src/image/galleri/galleri/grat_moder.jpg" 
+                     alt="Gråt inte, o Moder"
+            data-caption="Gråt inte, o Moder" 
+              data-extra="27x36 cm"
+                 onclick="openModal(3)">
+                    </div>
+                     <div>
+                <img src="../src/image/galleri/galleri/damiano.jpg" 
+                     alt="St. Damiano korset"
+            data-caption="St. Damiano korset" 
+              data-extra="35x47 cm" 
+                 onclick="openModal(4)">
+                    </div>                  
+                     <div>
+                <img src="../src/image/galleri/galleri/pantokrator.jpg" 
+                     alt="Kristus Pantokrator, grekisk förlaga"
+            data-caption="Kristus Pantokrator, grekisk förlaga" 
+              data-extra="20x25 cm" 
+                 onclick="openModal(5)">
+                    </div>                             
+            
+      
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Modal -->
+<load src="partials/modal.html" />
+
+<!-- Footer -->
+<load src="../partials/footer.html" />
+  
+</body>
+</html>
