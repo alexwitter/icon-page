@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="sv-SE">
-  <head class="">
+  <head>
     <load src="../partials/head.html" />
     <title>Galleri | Ikonsidan</title>
   </head>
 
-    <body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
+  <body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
 
 <!-- Nav -->
 <load src="../partials/nav.html" />
@@ -16,40 +16,25 @@
     <div class="flex flex-wrap justify-center">
       <div class="flex flex-col basis-md lg:basis-4xl mt-8">
 
-
-
-
-        <div class="flex justify-between">
-          
-          <div>
-            <a class="btn btn-nav btn-sm lg:btn-md gap-2 lg:gap-3 mt-14 lg:mt-0" href="../galleri">
-              <svg class="h-6 w-6 fill-current md:h-8 md:w-8" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z"></path>
-              </svg>
-                <span class="pr-4">Galleri</span>
+        <div class="flex flex-wrap justify-between">
+          <div class="btn-nav order-2 lg:order-1">
+            <a class="btn" href="../galleri">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z"></path></svg>
+              <span class="pr-4">Galleri</span>
             </a>
           </div>
-
-            <div class="">
-              <h2 class="text-3xl text-gray-800 leading-none text-center ">Kristusikoner</h2>
+            <div class="order-1 lg:order-2 w-full lg:w-auto text-center">
+              <h2 class="text-3xl text-gray-800 leading-none">Kristusikoner</h2>
             </div>
-
-
-            <div>
-              <a class="btn btn-nav btn-sm lg:btn-md gap-2 lg:gap-3 mt-14 lg:mt-0" href="../gudsmodern">
+          <div class="btn-nav order-3 lg:order-3 ">
+            <a class="btn" href="gudsmodern">
               <span class="pl-4">Gudsmodern</span>
-              <svg class="h-6 w-6 fill-current md:h-8 md:w-8" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"></path>
-              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"></path></svg>
             </a>
           </div>
-            
-
-
-
         </div>
 
-        <div class="gallery gallery-box grid-cols-3 lg:grid-cols-5 mt-10 lg:mt-22 mb-20" id="gallery">
+        <div class="gallery gallery-box grid-cols-3 lg:grid-cols-5 mt-6 lg:mt-22 mb-20" id="gallery">
 
                     <div>
                 <img src="../src/image/galleri/galleri/kristus.jpg" 

@@ -62,6 +62,7 @@
     @apply object-cover;
     @apply object-top;
   }
+
 }
 
 
@@ -75,11 +76,27 @@
   @apply hover:text-white;
 }
 
-.btn-nav {
+.btn-nav a {
+  @apply btn-sm;
+  @apply lg:btn-md;
   @apply px-2;
   @apply bg-white;
   @apply text-lg;
   @apply shadow-none;
+  @apply gap-2;
+  @apply lg:gap-3;
+  @apply mt-10;
+  @apply lg:mt-0;
+  @apply min-w-40;
+
+}
+
+.btn-nav svg {
+  @apply h-6;
+  @apply w-6;
+  @apply fill-current;
+  @apply lg:h-8;
+  @apply lg:w-8;
 }
 
 
