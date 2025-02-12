@@ -73,9 +73,11 @@
   @apply leading-normal;
   @apply text-base;
   @apply tracking-normal;
+  @apply min-h-screen;
   font-family: "Crimson Text", serif;
   font-weight: 400;
   font-style: normal;
+  
 }
 
 
