@@ -19,8 +19,8 @@ thumbnails.forEach((thumbnail, index) => {
   slideDiv.innerHTML = `
     <img src="${thumbnail.src}" class="mx-auto max-h-[80vh] max-w-[80vw]">
     <div class="text-gray-200 mt-2 flex flex-col">
-      <span class="text-md">${thumbnail.dataset.caption}</span>
-        ${thumbnail.dataset.extra ? `<span class="text-sm">${thumbnail.dataset.extra}</span>` : ''}
+      <span class="text-lg">${thumbnail.dataset.caption}</span>
+        ${thumbnail.dataset.extra ? `<span class="text-sm roboto">${thumbnail.dataset.extra}</span>` : ''}
     </div>
   `;
   modalContent.appendChild(slideDiv);
