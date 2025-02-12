@@ -28,7 +28,7 @@ export default defineConfig({
         footer: resolve(__dirname, 'partials/footer.html'),
         kristusikoner: resolve(__dirname, '/galleri/kristusikoner.html'),
         gudsmodern: resolve(__dirname, '/galleri/gudsmodern.html'),
-
+        helgon: resolve(__dirname, '/galleri/helgon.html'),
       },
     },
   },
