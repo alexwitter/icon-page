@@ -29,6 +29,7 @@ export default defineConfig({
         kristusikoner: resolve(__dirname, '/galleri/kristusikoner.html'),
         gudsmodern: resolve(__dirname, '/galleri/gudsmodern.html'),
         helgon: resolve(__dirname, '/galleri/helgon.html'),
+        handelseikoner: resolve(__dirname, '/galleri/handelseikoner.html'),
       },
     },
   },

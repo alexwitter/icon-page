@@ -90,8 +90,12 @@
   @apply hover:text-white;
 }
 
+.btn-nav {
+
+}
+
 .btn-nav a {
-  @apply px-2;
+  @apply px-1;
   @apply bg-white;
   @apply text-lg;
   @apply shadow-none;
@@ -99,7 +103,7 @@
   @apply lg:gap-3;
   @apply mt-10;
   @apply lg:mt-0;
-  @apply min-w-40;
+  @apply min-w-38;
 
 }
 
@@ -110,6 +114,8 @@
   @apply lg:h-8;
   @apply lg:w-8;
 }
+
+
 
 
 .playwrite {
