@@ -91,8 +91,6 @@
 }
 
 .btn-nav a {
-  @apply btn-sm;
-  @apply lg:btn-md;
   @apply px-2;
   @apply bg-white;
   @apply text-lg;
