@@ -30,6 +30,7 @@ export default defineConfig({
         gudsmodern: resolve(__dirname, '/galleri/gudsmodern.html'),
         helgon: resolve(__dirname, '/galleri/helgon.html'),
         handelseikoner: resolve(__dirname, '/galleri/handelseikoner.html'),
+        anglar: resolve(__dirname, '/galleri/anglar.html'),
       },
     },
   },
