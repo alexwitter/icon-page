@@ -32,6 +32,7 @@ export default defineConfig({
         handelseikoner: resolve(__dirname, '/galleri/handelseikoner.html'),
         anglar: resolve(__dirname, '/galleri/anglar.html'),
         koptiska: resolve(__dirname, '/galleri/koptiska-ikoner.html'),
+        drivved: resolve(__dirname, '/galleri/tra-och-drivved.html'),
       },
     },
   },

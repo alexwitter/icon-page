@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="sv-SE">
+  <head>
+    <load src="../partials/head.html" />
+    <title>Galleri | Ikonsidan</title>
+  </head>
+
+  <body class="body">
+
+<!-- Nav -->
+<load src="../partials/nav.html" />
+
+
+<section class="py-8 pb-20">
+  <div class="container px-6 mx-auto">
+    <div class="flex flex-wrap justify-center">
+      <div class="flex flex-col basis-md lg:basis-4xl mt-8">
+
+        <div class="flex flex-row flex-wrap justify-between ">
+          <div class="btn-nav order-2 lg:order-1 ">
+            <a class="btn" href="koptiska-ikoner">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z"></path></svg>
+              <span class="pr-4">Koptiska ikoner</span>
+            </a>
+          </div>
+            <div class="order-1 lg:order-2 w-full lg:w-auto text-center">
+              <h2 class="text-3xl text-gray-800 leading-none">På trä och drivved</h2>
+            </div>
+          <div class="btn-nav order-3 lg:order-3">
+            <a class="btn" href="../galleri">
+              <span class="pl-4">Galleri</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"></path></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="gallery gallery-box grid-cols-3 lg:grid-cols-5 mt-6 lg:mt-22 mb-20" id="gallery">
+        <div>
+        <img src="../src/image/galleri/pa-tra-och-drivved/tra-1.jpg" 
+         alt="Den heliga familjen"
+      data-caption="Den heliga familjen" 
+         onclick="openModal(1)"
+         class="object-center">
+          </div>
+        <div>
+        <img src="../src/image/galleri/pa-tra-och-drivved/tra-2.jpg" 
+         alt="Maria med barnet"
+      data-caption="Maria med barnet"
+         onclick="openModal(2)"
+         class="object-center">
+         </div>
+        <div>
+        <img src="../src/image/galleri/pa-tra-och-drivved/tra-3.jpg" 
+         alt="Ärkeängeln Gabriel och Ärkeängeln Mikael"
+      data-caption="Ärkeängeln Gabriel och Ärkeängeln Mikael"
+        onclick="openModal(3)"
+         class="object-center">
+        </div>
+         <div>
+         <img src="../src/image/galleri/pa-tra-och-drivved/tra-4.jpg" 
+        alt="Ömhetens gudsmoder"
+       data-caption="Ömhetens gudsmoder" 
+        onclick="openModal(4)"
+         class="object-center">
+        </div>                  
+         <div>
+         <img src="../src/image/galleri/pa-tra-och-drivved/tra-5.jpg" 
+        alt="Herrens ängel"
+       data-caption="Herrens ängel"
+        onclick="openModal(5)"
+         class="object-center">
+        </div>                             
+         <div>
+         <img src="../src/image/galleri/pa-tra-och-drivved/tra-6.jpg" 
+        alt="Kristus Pantokrator"
+       data-caption="Kristus Pantokrator"
+        onclick="openModal(6)"
+         class="object-center">
+        </div> 
+         <div>
+         <img src="../src/image/galleri/pa-tra-och-drivved/tra-7.jpg" 
+        alt="Ömhetens Gudsmoder"
+       data-caption="Ömhetens Gudsmoder"
+        onclick="openModal(7)"
+         class="object-center">
+        </div>
+         <div>
+         <img src="../src/image/galleri/pa-tra-och-drivved/tra-8.jpg" 
+        alt="Den gode herden"
+       data-caption="Den gode herden"
+        onclick="openModal(8)"
+         class="object-center">
+        </div>
+         <div>
+         <img src="../src/image/galleri/pa-tra-och-drivved/tra-9.jpg" 
+        alt="Maria med barnet"
+       data-caption="Maria med barnet" 
+       data-extra="Såld" 
+        onclick="openModal(9)"
+         class="object-center">
+        </div>
+         <div>
+         <img src="../src/image/galleri/pa-tra-och-drivved/tra-10.jpg" 
+        alt="Gudsmodern med barnet"
+       data-caption="Gudsmodern med barnet" 
+       data-extra="Såld" 
+        onclick="openModal(10)"
+         class="object-center">
+        </div>                  
+         <div>
+         <img src="../src/image/galleri/pa-tra-och-drivved/tra-11.jpg" 
+        alt="Den heliga familjen"
+       data-caption="Den heliga familjen" 
+       data-extra="Såld" 
+        onclick="openModal(11)"
+         class="object-center">
+        </div>                             
+         <div>
+         <img src="../src/image/galleri/pa-tra-och-drivved/tra-12.jpg" 
+        alt="Ärkeängeln Rafael"
+       data-caption="Ärkeängeln Rafael" 
+       data-extra="Såld" 
+        onclick="openModal(12)"
+         class="object-top">
+         </div> 
+        <div>
+      <img src="../src/image/galleri/pa-tra-och-drivved/tra-13.jpg" 
+        alt="Jona i valfisken"
+      data-caption="Jona i valfisken" 
+      data-extra="Såld" 
+      onclick="openModal(13)"
+         class="object-center">
+        </div>
+        <div>
+      <img src="../src/image/galleri/pa-tra-och-drivved/tra-14.jpg" 
+        alt="Bebådelsen"
+      data-caption="Bebådelsen, koptisk variant skriven på drivved" 
+      onclick="openModal(14)"
+         class="object-center">
+        </div>
+        <div>
+      <img src="../src/image/galleri/pa-tra-och-drivved/tra-15.jpg" 
+        alt="Ömhetens gudsmoder"
+      data-caption="Ömhetens gudsmoder, koptisk variant på drivved" 
+      data-extra="16x26 cm - Såld" 
+      onclick="openModal(15)"
+         class="object-center">
+        </div>
+         <div>
+         <img src="../src/image/galleri/pa-tra-och-drivved/tra-16.jpg" 
+        alt="Ömhetens gudsmoder"
+       data-caption="Ömhetens gudsmoder, koptisk variant på drivved" 
+       data-extra="16x28 cm" 
+        onclick="openModal(16)"
+         class="object-center">
+        </div>                  
+         <div>
+         <img src="../src/image/galleri/pa-tra-och-drivved/tra-17.jpg" 
+        alt="Ärkeängeln Mikael"
+       data-caption="Ärkeängeln Mikael" 
+       data-extra="21x22 cm - Såld" 
+        onclick="openModal(17)"
+         class="object-center">
+        </div>                             
+         <div>
+         <img src="../src/image/galleri/pa-tra-och-drivved/tra-18.jpg" 
+        alt="Födelsen"
+       data-caption="Födelsen" 
+       data-extra="21x22 cm - Såld" 
+        onclick="openModal(18)"
+         class="object-center">
+        </div> 
+         <div>
+         <img src="../src/image/galleri/pa-tra-och-drivved/tra-19.jpg" 
+        alt="Ärkeängeln Mikael"
+       data-caption="Ärkeängeln Mikael" 
+       data-extra="21x17 cm" 
+        onclick="openModal(19)"
+         class="object-center">
+        </div>
+         <div>
+         <img src="../src/image/galleri/pa-tra-och-drivved/tra-20.jpg" 
+        alt="Herrens änglar"
+       data-caption="Herrens änglar" 
+       data-extra="21x17 cm - Såld" 
+        onclick="openModal(20)"
+         class="object-center">
+        </div>
+         <div>
+         <img src="../src/image/galleri/pa-tra-och-drivved/tra-21.jpg" 
+        alt="Koptiska motiv på drivved"
+       data-caption="Koptiska motiv på drivved" 
+       data-extra="Såld" 
+        onclick="openModal(21)"
+         class="object-center">
+        </div>
+         <div>
+         <img src="../src/image/galleri/pa-tra-och-drivved/tra-22.jpg" 
+        alt="Maria och barnet på drivved"
+       data-caption="Maria och barnet på drivved"
+        onclick="openModal(22)"
+         class="object-center">
+        </div>                  
+         <div>
+         <img src="../src/image/galleri/pa-tra-och-drivved/tra-23.jpg" 
+        alt="Ärkeängeln Rafael"
+       data-caption="Ärkeängeln Rafael" 
+       data-extra="Såld" 
+        onclick="openModal(23)"
+         class="object-top">
+        </div>                             
+         <div>
+         <img src="../src/image/galleri/pa-tra-och-drivved/tra-24.jpg" 
+        alt="Ärkeängeln Gabriel"
+       data-caption="Ärkeängeln Gabriel" 
+       data-extra="23x41 - Såld" 
+        onclick="openModal(24)"
+         class="object-top">
+         </div> 
+     
+  </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Modal -->
+<load src="partials/modal.html" />
+
+<!-- Footer -->
+<load src="../partials/footer.html" />
+  
+</body>
+</html>
