@@ -29,11 +29,11 @@
         )()
   </script>
 
-    <title>Ikonsidan</title>
+    <title>Galleri | Ikonsidan</title>
     <link rel="stylesheet" crossorigin href="/assets/style-CB7WN-SJ.css">
   </head>
 
-<body class="body">
+  <body class="body">
 
 <!-- Nav -->
 <nav id="header" class="w-full z-30 top-0 py-1 shadow-md ">
@@ -88,59 +88,103 @@
 
         </div>
     </nav>
-  
-  <!--Hero-->   
-  <section class="w-full mx-auto flex items-center bg-cover bg-top h-[20rem] md:h-[42rem]" style="max-width:1600px;; background-image: url(/assets/hero_high-DoU-qC7V.jpg);">
-    <div class="container mx-auto">
-      <div class="flex flex-col w-full justify-center items-center text-center px-6">
-        <h1 class="text-white text-4xl md:text-6xl mt-10 ">Handmålade ikoner</h1>
-        <h2 class="text-white text-2xl md:text-4xl mt-2 ">av Inga-Lill Berglund</h2>
-      </div>
-    </div>
-  </section>
-  
- <!-- Welcome -->
-  <section class="py-8">
-    <div class="container px-6 mx-auto">
-      <div class="flex flex-wrap justify-center">
 
-        <div class="w-full md:w-2/3 basis-md lg:pt-15 py-8">
-          <h2 class="text-3xl text-gray-800 leading-none mb-6 lg:mb-10">Välkommen till ikonsidan</h2>
-          <p class="text-gray-600 text-lg mb-8 mr-2 lg:mr-10">Jag heter Inga-Lill Berglund och är ikonmålare. Här kan du se en del av de ikoner som jag har målat samt läsa lite om traditionen kring ikonmåleri.  </p>
-            <a href="om-mig" class="btn btn-lg btn-outline">Om mig</a>
+
+<section class="py-8 pb-10">
+  <div class="container px-6 mx-auto">
+    <div class="flex flex-wrap justify-center">
+      <div class="flex flex-col basis-md lg:basis-4xl mt-8">
+
+        <div class="flex flex-row flex-wrap justify-between ">
+          <div class="btn-nav order-2 lg:order-1 ">
+            <a class="btn btn-sm lg:btn-md" href="helgon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z"></path></svg>
+              <span class="pr-4">Helgon</span>
+            </a>
+          </div>
+            <div class="order-1 lg:order-2 w-full lg:w-auto text-center">
+              <h2 class="text-3xl text-gray-800 leading-none">Händelseikoner</h2>
+            </div>
+          <div class="btn-nav order-3 lg:order-3">
+            <a class="btn btn-sm lg:btn-md" href="anglar">
+              <span class="pl-4">Änglar</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"></path></svg>
+            </a>
+          </div>
         </div>
 
-        <div class="flex flex-col w-full md:w-1/2 basis-md">
-          <div class="text-center pb-4 text-xl divider"> 
-            <h3 class="">
-              Nyskrivna ikoner
-            </h3>
-          </div>
+        <div class="gallery gallery-box grid-cols-3 lg:grid-cols-5 mt-6 lg:mt-22 mb-20" id="gallery">
 
-
-          <div class="gallery grid-cols-2 mt-0" id="gallery">
-          
-            <div>
-              <img src="/assets/a-C-4eHcAB.jpg" alt="Sankt Mamas" data-caption="Sankt Mamas" data-extra="24x32 cm" onclick="openModal(1)">
-              <div>Sankt Mamas</div>
-            </div>
-
-            <div>
-              <img src="/assets/b-lrkuRgWn.jpg" alt="Ärkeängeln Uriel" data-caption="Ärkeängeln Uriel" data-extra="20x25 cm" onclick="openModal(2)">
-              <div>Ärkeängeln Uriel</div>
-            </div>
-
-          </div>
-
+                    <div>
+                <img src="/assets/handelseikoner-1-cL2WKwem.jpg" 
+                     alt="Julikonen"
+            data-caption="Julikonen" 
+              data-extra="35x45 cm" 
+                 onclick="openModal(1)">
+                   </div>
+                    <div>
+                <img src="/assets/handelseikoner-2-6MUbrT4x.jpg" 
+                     alt="Den heliga familjen"
+            data-caption="Den heliga familjen" 
+              data-extra="30x25 cm" 
+                 onclick="openModal(2)">
+                   </div>
+                    <div>
+                <img src="/assets/handelseikoner-3-6dct07SU.jpg" 
+                     alt="Marias och Elisabeths möte"
+            data-caption="Marias och Elisabeths möte" 
+              data-extra="16x20 cm" 
+                onclick="openModal(3)"
+                class="object-center">
+                  </div>
+                   <div>
+               <img src="/assets/handelseikoner-4-BrwEeXoJ.jpg" 
+                    alt="Gabriel och Maria"
+           data-caption="Bebådelsen, Ärkeängeln Gabriel och Maria. Här på två separata ikoner" 
+             data-extra="24x30 cm" 
+                onclick="openModal(4)"
+                class="object-left">
+                  </div>                 
+                   <div>
+               <img src="/assets/handelseikoner-5-BuYcSRZT.jpg" 
+                    alt="esus Kristus välsignar barnen"
+           data-caption="Jesus Kristus välsignar barnen" 
+             data-extra="32x40 cm" 
+                onclick="openModal(5)"
+                class="object-center">
+                  </div>                            
+                   <div>
+               <img src="/assets/handelseikoner-6-DSCfmCBk.jpg" 
+                    alt="Adam och Eva"
+           data-caption="Adam och Eva i Paradiset, skriven till en vän" 
+             data-extra="25x27 cm" 
+                onclick="openModal(6)"
+                class="object-center">
+                  </div>
+                  <div>
+            <img src="/assets/handelseikoner-7-CMijUdIR.jpg" 
+                  alt="Kristi möte med den Samaritiska kvinnan"
+        data-caption="Kristi möte med den Samaritiska kvinnan vid Sykars brunn, privat beställning" 
+          data-extra="25x30 cm" 
+              onclick="openModal(7)">
+                </div> 
+                <div>
+          <img src="/assets/handelseikoner-8-DVHBk8ZQ.jpg" 
+                alt="Bebådelsen"
+      data-caption="Bebådelsen" 
+        data-extra="45x65 cm" 
+            onclick="openModal(8)"
+            class="object-center">
+              </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
- 
 
-  <!-- Modal -->
-  <div id="myModal" class="hidden fixed z-50 inset-0 overflow-auto bg-black/90 items-center justify-center">
+<!-- Modal -->
+<div id="myModal" class="hidden fixed z-50 inset-0 overflow-auto bg-black/90 items-center justify-center">
 <span class="absolute top-4 right-8 text-white text-4xl font-bold cursor-pointer" onclick="closeModal()">&times;</span>
 <div class="relative text-center content-center basis-lg">
   <!-- Full-size images will be dynamically generated here -->
@@ -232,113 +276,6 @@ function handleSwipe() {
   }
 }
 </script>
-
-
-
-<!-- The Craft -->
-  <section class="bg-base-100 py-8">
-    <div class="container px-6 mx-auto">
-      <div class="flex flex-wrap justify-center">
-          <div class="flex flex-row gap-x-4 gap-y-8 basis-md lg:basis-xl">
-            <!-- C -->
-            <div class="">
-                <img class="h-48 lg:h-70 lg:w-full object-cover" src="/assets/c-ByWJARAc.jpg" alt="Sankt Mamas">
-            </div>
-            
-            <!-- D -->
-            <div class="">
-                <img class="h-48 lg:h-70 lg:w-65 object-cover" src="/assets/d-05oTa7Ef.jpg" alt="Sankt Mamas">
-            </div>
-          </div>
-          
-        <div class="pt-6 lg:pt-0 lg:pl-4 basis-md lg:basis-xs">
-          <h2 class="text-3xl text-gray-800 leading-none mb-6">Hantverket</h2>
-          <p class="text-gray-600 mb-8">Ikonmåleri är en mycket gammal konstform. Ordet ikon kommer från det grekiska ordet eikon som betyder just bild eller avbild. De äldsta bevarade bilderna av Jesus, Maria och andra heliga personer målades redan under det första århundradet efter Kristus...</p>
-          <a href="hantverket" class="btn btn-lg btn-outline">Läs mer</a>
-        </div>
-
-      </div>
-    
-    </div>
-  </section>
-  
-<!-- Gallery -->
-<section class="py-8">
-  <div class="container px-6 mx-auto">
-    <div class="flex flex-wrap justify-center">
-
-      <div class=" lg:pt-0 lg:pl-4 basis-md lg:basis-4xl flex flex-col w-full text-center">
-        <h2 class="text-3xl text-gray-800 leading-none mb-6 ">Galleri</h2>
-        <p class="text-gray-600 mb-8 mr-4">Här hittar du ett urval av mina ikoner. Tänk på att bilderna på skärmen inte kan återge den exakta detaljrikedomen i de faktiska ikonerna samt att färger och nyanser kan skifta något.</p>
-        
-      </div>
-
-
-        <div class="gap-4 flex flex-row w-full justify-between basis-md lg:basis-4xl">
-          <!-- E -->
-            <div class="">
-              <img class="flex  aspect-square object-cover" src="/assets/e-BR_aIzFk.avif" alt="Sankt Mamas">
-            </div>
-          
-          <!-- F -->
-            <div class="">
-              <img class="flex  aspect-square object-cover" src="/assets/f-DW7BzjyQ.avif" alt="Sankt Mamas">
-            </div>
-
-          <!-- G -->
-            <div class="bg-center">
-              <img class="flex  aspect-square object-cover" src="/assets/g-DjRxCljk.avif" alt="Sankt Mamas">
-            </div>
-                    
-          <!-- H -->
-            <div class="">
-              <img class="flex  aspect-square object-cover" src="/assets/h-DkcYeA_E.avif" alt="Sankt Mamas">
-            </div>
-        </div>
-
-        <div class="w-full text-center">
-          <a href="galleri" class="btn btn-lg btn-outline mt-8">Till galleriet</a>
-        </div>
-    </div>  
-    
-  </div>
-</section>
-
-<!-- Other motifs -->
-<section class="py-8">
-  <div class="container px-6 mx-auto">
-
-    <div class="flex justify-center ">
-  
-      <div class="flex flex-wrap flex-col basis-md lg:basis-4xl">
-      
-        <div class="flex flex-col gap-x-4 gap-y-4  lg:flex-row">
-         
-          <!-- C -->
-          <div class="">
-            <img class="" src="/assets/i-VLnhueSV.jpg" alt="Sankt Mamas">
-          </div>
-        
-          <!-- D -->
-          <div class="">
-            <img class="w-full" src="/assets/j-SmkqlyCa.jpg" alt="Sankt Mamas">
-          </div>
-        
-        </div>
-
-          <div class="text-center lg:text-right">
-            <a href="andra-motiv" class="btn btn-lg btn-outline mt-8 ">Andra motiv...</a>
-          </div>
-
-      </div>
-      
-    </div>  
-
-  </div>
-
-
-</section>
-
 
 <!-- Footer -->
 <footer class="container mx-auto">
@@ -445,8 +382,6 @@ function handleSwipe() {
 
 
 </footer>
-
-
   
 </body>
 </html>
