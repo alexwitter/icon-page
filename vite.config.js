@@ -31,6 +31,7 @@ export default defineConfig({
         helgon: resolve(__dirname, '/galleri/helgon.html'),
         handelseikoner: resolve(__dirname, '/galleri/handelseikoner.html'),
         anglar: resolve(__dirname, '/galleri/anglar.html'),
+        koptiska: resolve(__dirname, '/galleri/koptiska-ikoner.html'),
       },
     },
   },
