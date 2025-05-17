@@ -1,4 +1,4 @@
-# Ikonsidan - Inga-Lill Berglund's Art Portfolio
+# Ikonsidan
 
 Welcome to the official repository for Ikonsidan, the online portfolio for artist Inga-Lill Berglund. This website showcases her beautiful hand-painted icons and other artistic creations.
 
