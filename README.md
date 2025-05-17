@@ -2,7 +2,7 @@
 
 Welcome to the official repository for Ikonsidan, the online portfolio for artist Inga-Lill Berglund. This website showcases her beautiful hand-painted icons and other artistic creations.
 
-**Live Site:** [https://ikonsidan.com/](https://ikonsidan.com/)
+**Live Site:** [https://alexwitter.github.io/icon-page/](https://alexwitter.github.io/icon-page/)
 
 ## Built With
 
